@@ -1,6 +1,9 @@
 ### Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones - 2018 - FaMAF - UNC
 # Aprendizaje Supervisado
 
+- Matías Marenchino
+- Franco M. Luque
+
 
 ## Requisitos de Instalación
 
