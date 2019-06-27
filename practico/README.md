@@ -9,13 +9,15 @@ La competencia se puede acceder mediante [este link](https://www.kaggle.com/t/0b
 ## Requerimientos del práctico
 
 1. Superar el puntaje del baseline en la competencia kaggle.
+1. Usar al menos un modelo más que los árboles de decisión.
 1. Entregar el código fuente que generó el último archivo que se subió a kaggle. Tal código debe ser fácilmente ejecutable (virtualenv?) y debe estar documentado.
 
 ## Pasos a seguir
 
 1. Crear una cuenta en kaggle.com. 
-1. Sumarse a la competencia: ...
-1. Obtener los datos: 
+1. Sumarse a la competencia [acá](https://www.kaggle.com/t/0bb80a8296854cfab77d9d9ec1d60fe1).
+1. Descargar los datos.
+1. Una vez realizada una predicción. Subir las mismas a kaggle.
 
 ## Un ejemplo
 
