@@ -18,7 +18,7 @@ La competencia se puede acceder mediante [este link](https://www.kaggle.com/t/0b
 1. Sumarse a la competencia [acá](https://www.kaggle.com/t/0bb80a8296854cfab77d9d9ec1d60fe1).
     * Hacer click en "Join Competition".
     * Aceptar las reglas.
-1. Pueden crear un equipo (Team). *Recomendamos hacerlo en equipos de dos alumnos*.
+1. Crear un equipo (Team): *hacer en práctico en equipos de tres alumnos*.
 1. Pueden descargar los datos (Data), aunque también están incluidos en este repo.
 1. Una vez realizada una predicción (ver ejemplo abajo), subir los resultados a kaggle haciendo click en "Submit Predictions" en la página principal de la competencia. Ahí deberán subir el archivo csv generado y describir (para sus registros) qué están subiendo.
 
