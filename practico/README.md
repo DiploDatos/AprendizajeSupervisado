@@ -29,3 +29,11 @@ Adjuntamos una implementación que tiene por objetivo:
 * Levantar los datos que usaremos.
 * Crear un *baseline* para la competencia.
 * Generar el archivo que se subirá a kaggle para su evaluación (*submission.csv*).
+
+## Algunas consideraciones
+
+* Definimos como métrica para evaluación a la "accuracy". Definitivamente no es una buena elección, pero el objetivo [principal era que nos concentremos en los modelos.
+* Dividimos los datos de entrenamiento en "train" y "validation". Pero hicimos cross-validation (CV) sólo sobre "train".
+* Estamos usando grid search, sólo porque se nos ocurrió. Sirven otros métodos para determinar hiperparámetros como random search?
+* Usamos one-hot encoding para lidear con las variables categóricas. Para ello, usamos la función "get_dummies" de pandas. Hicimos esto último sobre todo el universo de datos, asumiendo el riesgo que esto conlleva (puede darse el caso en que creemos muchas nuevas features para valores que no son vistos en los datos de "train").
+
