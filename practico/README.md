@@ -2,11 +2,6 @@
 
 Esta competencia ha sido creada a partir de la competencia de clasificación de visitas a Walmart en Kaggle: https://www.kaggle.com/c/walmart-recruiting-trip-type-classification/overview. Se ha creado una versión simplificada para usarla como práctica de la materia de *Aprendizaje Supervisado* de la *DiploDatos*.
 
-## Kaggle
-
-#TODO
-La competencia se puede acceder mediante [este link](https://www.kaggle.com/t/f445b42d310243318bed5cb76c2db2df). Deben crearse una cuenta en Kaggle para poder subir predicciones.
-
 ## Requerimientos del práctico
 
 1. Superar el puntaje del baseline en la competencia kaggle.
@@ -16,11 +11,10 @@ La competencia se puede acceder mediante [este link](https://www.kaggle.com/t/f4
 ## Pasos a seguir
 
 1. Crear una cuenta en kaggle.com. 
-# TODO
 1. Sumarse a la competencia [acá](https://www.kaggle.com/t/f445b42d310243318bed5cb76c2db2df).
     * Hacer click en "Join Competition".
     * Aceptar las reglas.
-1. Crear un equipo (Team): *hacer el práctico en equipos de tres alumnos*.
+1. Crear un equipo (Team): *hacer el práctico en equipos de tres o cuatro alumnos*.
 1. Pueden descargar los datos (Data), aunque también están incluidos en este repo.
 1. Una vez realizada una predicción (ver ejemplo abajo), subir los resultados a kaggle haciendo click en "Submit Predictions" en la página principal de la competencia. Ahí deberán subir el archivo csv generado y describir (para sus registros) qué están subiendo.
 
