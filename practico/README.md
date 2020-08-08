@@ -5,7 +5,7 @@ Esta competencia ha sido creada a partir de la competencia de clasificación de 
 ## Kaggle
 
 #TODO
-La competencia se puede acceder mediante [este link](https://www.kaggle.com/t/0bb80a8296854cfab77d9d9ec1d60fe1).
+La competencia se puede acceder mediante [este link](https://www.kaggle.com/t/f445b42d310243318bed5cb76c2db2df). Deben crearse una cuenta en Kaggle para poder subir predicciones.
 
 ## Requerimientos del práctico
 
@@ -17,7 +17,7 @@ La competencia se puede acceder mediante [este link](https://www.kaggle.com/t/0b
 
 1. Crear una cuenta en kaggle.com. 
 # TODO
-1. Sumarse a la competencia [acá](https://www.kaggle.com/t/0bb80a8296854cfab77d9d9ec1d60fe1).
+1. Sumarse a la competencia [acá](https://www.kaggle.com/t/f445b42d310243318bed5cb76c2db2df).
     * Hacer click en "Join Competition".
     * Aceptar las reglas.
 1. Crear un equipo (Team): *hacer el práctico en equipos de tres alumnos*.
