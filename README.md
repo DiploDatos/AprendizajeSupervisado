@@ -2,7 +2,6 @@
 # Aprendizaje Supervisado
 
 - Cristian Cardellino
-- Matías Marenchino
 
 
 ## Requisitos de Instalación
@@ -23,9 +22,3 @@ en este mismo directorio pueden ejecutar jupyter para abrir las notebooks:
 $ jupyter notebook
 ```
 
-## Slides de las clases
-
-- [Clase I](https://docs.google.com/presentation/d/1Q8olmh65UFoIyCebx2wBLJZyhyVu74BJdNKSJTvJe-E/edit?usp=sharing)
-- [Clase II](https://docs.google.com/presentation/d/19fwD8-plzOFpWpbnjt39Vbbk4zyl1j952Yf5vZSF8LE/edit?usp=sharing)
-- [Clase III](https://docs.google.com/presentation/d/1mAsJ8XMya1jk2m-DFAP4NW5of5x8x-n0aZM7Tp4SzN4/edit?usp=sharing)
-- [Clase IV](https://docs.google.com/presentation/d/1NPXFe5sgVsL3Cx9d5gt4O0OE0XaEuYbitzbEJQ0FXss/edit?usp=sharing)
