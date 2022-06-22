@@ -15,6 +15,8 @@ Anaconda por completo, se necesitan instalar los siguientes paquetes:
 - Scikit Learn
 - Matplotlib
 - Jupyter 
+- Pandas
+- Seaborn
 
 Una vez que hayan clonado este repositorio, y resuelto las dependencias,
 en este mismo directorio pueden ejecutar jupyter para abrir las notebooks:
