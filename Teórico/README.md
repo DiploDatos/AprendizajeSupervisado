@@ -1,4 +1,17 @@
-# El Teórico
+# Aprendizaje Supervisado 2022
 
-En esta parte estarán las presentaciones y las notebooks de las clases
+En esta sección encontrarán las presentaciones y las notebooks que se verán en las clases 24/06, 25/06, 01/07 y 02/07.
+
+Para poder ejecutar las notebooks necesitarán tener instalado python con los siguientes paquetes mínimos:
+
+- [Jupyter notebook](https://jupyter-notebook.readthedocs.io/en/stable/)
+- [Numpy](https://numpy.org/)
+- [Scipy](https://scipy.org/)
+- [Matplotlib](https://matplotlib.org/)
+- [Scikit-learn](https://scikit-learn.org/stable/)
+- [Pandas](https://pandas.pydata.org/)
+- [Seaborn](https://seaborn.pydata.org/)
+- [Xgboost](https://xgboost.readthedocs.io/en/stable/)
+
+Se recomienda el uso de un entorno virtual con [Anaconda](https://www.anaconda.com/), pero no es obligatorio. 
 
