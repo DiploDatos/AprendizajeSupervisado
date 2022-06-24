@@ -11,6 +11,7 @@ Para poder ejecutar las notebooks necesitarán tener instalado python con los si
 - [Scikit-learn](https://scikit-learn.org/stable/)
 - [Pandas](https://pandas.pydata.org/)
 - [Seaborn](https://seaborn.pydata.org/)
+- [graphviz](https://bobswift.atlassian.net/wiki/spaces/GVIZ/pages/20971549/How+to+install+Graphviz+software)
 - [Xgboost](https://xgboost.readthedocs.io/en/stable/)
 
 Se recomienda el uso de un entorno virtual con [Anaconda](https://www.anaconda.com/), pero no es obligatorio. 
