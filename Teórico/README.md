@@ -13,6 +13,8 @@ Para poder ejecutar las notebooks necesitarán tener instalado python con los si
 - [Seaborn](https://seaborn.pydata.org/)
 - [graphviz](https://bobswift.atlassian.net/wiki/spaces/GVIZ/pages/20971549/How+to+install+Graphviz+software)
 - [Xgboost](https://xgboost.readthedocs.io/en/stable/)
+- [h5py](https://docs.h5py.org/en/stable/high/dataset.html)
+- [Surprise](http://surpriselib.com/)
 
 Se recomienda el uso de un entorno virtual con [Anaconda](https://www.anaconda.com/), pero no es obligatorio. 
 
