@@ -15,6 +15,7 @@ Para poder ejecutar las notebooks necesitarán tener instalado python con los si
 - [Xgboost](https://xgboost.readthedocs.io/en/stable/)
 - [h5py](https://docs.h5py.org/en/stable/high/dataset.html)
 - [Surprise](http://surpriselib.com/)
+- [keras](https://keras.io/)
 
 Se recomienda el uso de un entorno virtual con [Anaconda](https://www.anaconda.com/), pero no es obligatorio. 
 

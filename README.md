@@ -23,7 +23,6 @@ Anaconda por completo, se necesitan instalar los siguientes paquetes:
 - [h5py](https://docs.h5py.org/en/stable/high/dataset.html)
 - [Surprise](http://surpriselib.com/)
 - [keras](https://keras.io/)
-- [Pytorch]()
 
 Una vez que hayan clonado este repositorio, y resuelto las dependencias,
 en este mismo directorio pueden ejecutar jupyter para abrir las notebooks:
