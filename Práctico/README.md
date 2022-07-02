@@ -12,7 +12,7 @@ Esta competencia ha sido creada a partir de la competencia [Spaceship Titanic](h
 ## Pasos a seguir
 
 1. Crear una cuenta en kaggle.com. 
-1. Sumarse a la competencia [acá]().
+1. Sumarse a la competencia [acá](https://www.kaggle.com/t/d7dfd142ac1042168d052624b3dee531).
     * Hacer click en "Join Competition".
     * Aceptar las reglas.
 1. Crear un equipo (Team): El trabajo se evaluará en los grupos asignados.
