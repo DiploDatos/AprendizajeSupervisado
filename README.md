@@ -1,8 +1,14 @@
-### Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones - 2022 - FaMAF - UNC
+### Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones - 2023 - FaMAF - UNC
 # Aprendizaje Supervisado
 
+# Docentes
 - Karim Nemer
+- Diego González Dondo
+
+# Docentes anteriores
+
 - José Robledo
+- Cristhian Cardellino
 
 
 ## Requisitos de Instalación
@@ -30,4 +36,3 @@ en este mismo directorio pueden ejecutar jupyter para abrir las notebooks:
 ```
 $ jupyter notebook
 ```
-
