@@ -13,10 +13,38 @@ def plot_decision_boundary(model, X, y):
     Z = model(np.c_[xx.ravel(), yy.ravel()])
     Z = Z.reshape(xx.shape)
     # Plot the contour and training examples
-    plt.contourf(xx, yy, Z, cmap=plt.cm.ocean)#OrRd_r)
+    plt.contourf(xx, yy, Z, cmap=plt.cm.Spectral, alpha=0.2)#OrRd_r)
+    #plt.contourf(xx, yy, Z, colors = ["red","royalblue"], alpha=0.2)
     plt.ylabel('x2')
     plt.xlabel('x1')
-    plt.scatter(X[0, :], X[1, :], c=y.ravel(), cmap=plt.cm.Greys)
+    plt.scatter(X[0, :], X[1, :], c=y.ravel(), cmap=plt.cm.Spectral)
+    
+def plot_decision_boundary2(model, X, y):
+    X = X.T
+    y = y.T
+
+    # Set min and max values and give it some padding
+    x_min, x_max = X[0, :].min() - 1, X[0, :].max() + 1
+    y_min, y_max = X[1, :].min() - 1, X[1, :].max() + 1
+    h = 0.01
+
+    # Generate a grid of points with distance h between them
+    xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
+
+    # Predict the function value for the whole grid
+    Z = model(np.c_[xx.ravel(), yy.ravel()])
+    Z = Z.reshape(xx.shape)
+
+    ax = plt.gca()
+    ax.set_aspect(1)
+    # plt.axis("equal")
+    #plt.contourf(xx, yy, Z, cmap=plt.cm.ocean, alpha=0.5)
+    plt.contourf(xx, yy, Z, colors = ["red","royalblue"], alpha=0.2)
+    # plt.contourf(xx, yy, Z, cmap=plt.cm.Pastel1, alpha=0.5)
+    # plt.scatter(X[0, y==1], X[1, y==1], color="dodgerblue", edgecolors='k', label="1")
+    plt.scatter(X[0, y == 1], X[1, y == 1], color="royalblue", label="1")
+    plt.scatter(X[0, y == -1], X[1, y == -1], color="red", label="-1")
+    plt.legend()
 
 def load_dataset():
     train_dataset = h5py.File('demo_10_dataset/train_catvnoncat.h5', "r")
