@@ -1,6 +1,6 @@
 # Aprendizaje Supervisado 2024
 
-En esta sección encontrarán las presentaciones y las notebooks que se verán en las clases 24/06, 25/06, 01/07 y 02/07.
+En esta sección encontrarán las presentaciones y las notebooks que se verán en las clases 28/06, 29/06, 11/07 y 12/07.
 
 Para poder ejecutar las notebooks necesitarán tener instalado python con los siguientes paquetes mínimos:
 
