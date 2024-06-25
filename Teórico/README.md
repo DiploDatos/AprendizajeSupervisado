@@ -1,4 +1,4 @@
-# Aprendizaje Supervisado 2022
+# Aprendizaje Supervisado 2024
 
 En esta sección encontrarán las presentaciones y las notebooks que se verán en las clases 24/06, 25/06, 01/07 y 02/07.
 
