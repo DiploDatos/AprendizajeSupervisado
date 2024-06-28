@@ -13,8 +13,8 @@ def plot_decision_boundary(model, X, y):
     Z = model(np.c_[xx.ravel(), yy.ravel()])
     Z = Z.reshape(xx.shape)
     # Plot the contour and training examples
-    ax = plt.axes()
-    ax.set_aspect("equal", adjustable="datalim")
+    #ax = plt.axes()
+    #ax.set_aspect("equal", adjustable="datalim")
     plt.contourf(xx, yy, Z, cmap=plt.cm.Spectral, alpha=0.2)#OrRd_r)
     #plt.contourf(xx, yy, Z, colors = ["red","royalblue"], alpha=0.2)
     plt.ylabel('x2')
