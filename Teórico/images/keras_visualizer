@@ -94,9 +94,8 @@ Activation: relu" color=white fontcolor=black fontsize=18 shape=rectangle]
 	14 -> 16
 	15 -> 16
 	subgraph cluster_output {
-		node [color="#2ecc71" fontcolor="#2ecc71" shape=circle style=filled]
 		151515 [label="Output Units: 1
-Activation: relu" color=white fontcolor=black fontsize=18 shape=rectangle]
+Activation: sigmoid" color=white fontcolor=black fontsize=18 shape=rectangle]
 		color=white
 		rank=same
 		labeljust=1
