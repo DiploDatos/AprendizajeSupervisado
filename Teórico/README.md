@@ -1,4 +1,4 @@
-# Aprendizaje Supervisado 2024
+# Aprendizaje Supervisado 2025
 
 En esta sección encontrarán las presentaciones y las notebooks que se verán en las clases 28/06, 29/06, 11/07 y 12/07.
 
@@ -17,5 +17,4 @@ Para poder ejecutar las notebooks necesitarán tener instalado python con los si
 - [Surprise](http://surpriselib.com/)
 - [keras](https://keras.io/)
 
-Se recomienda el uso de un entorno virtual con [Anaconda](https://www.anaconda.com/), pero no es obligatorio. 
-
+Se recomienda el uso de un entorno virtual con [Anaconda](https://www.anaconda.com/), pero no es obligatorio.
