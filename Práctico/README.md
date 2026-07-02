@@ -2,12 +2,12 @@
 
 
 Esta competencia ha sido creada a partir de un datasets sobre una recopilación de videos de personas utilizando protectores buconasales (barbijos). El objetivo es determinar si las personas tienen puesto los barbijos a partir de las imágenes.
- 
-![Video11-frame-000209_single_box_0](../../../DiploDato2021/mentoria-deteccion-de-objetos-en-imagenes_repo/dataset/crop/dataSet_train_cropp/Video11-frame-000209_single_box_0.jpg)
 
-![video4-frame-000031_single_box_1](../../../DiploDato2021/mentoria-deteccion-de-objetos-en-imagenes_repo/dataset/crop/dataSet_train_cropp/video4-frame-000031_single_box_1.jpg)
+![Cara con barbijo](Video11-frame-001213_single_box_0.jpg)
 
-Este conjunto de datos fue elaborado utilizando 11 diferentes videos disponibles en la plataforma YouTube, en donde se muestran personas utilizando máscaras de protección en diversas situaciones y entornos: videos de trabajadores en las industrias, personas en la vı́a pública, entrevistas a personas y niños en las escuelas. Este conjunto está compuesto por imágenes con 1 261 caras con protectores buconasal y 993 caras sin ellos. 
+![Cara sin barbijo](Video11-frame-001215_single_box_1.jpg)
+
+Este conjunto de datos fue elaborado utilizando 11 diferentes videos disponibles en la plataforma YouTube, en donde se muestran personas utilizando máscaras de protección en diversas situaciones y entornos: videos de trabajadores en las industrias, personas en la vı́a pública, entrevistas a personas y niños en las escuelas. Este conjunto está compuesto por imágenes con 1 261 caras con protectores buconasal y 993 caras sin ellos.
 
 A cada imagen se la procesó mediante una red convolucional [ResNET101](https://arxiv.org/abs/1512.03385) para obtener la características sobresalientes adecuadas para realizar la tarea de clasificación de imágenes.
 ![Texto alternativo](layer_resnet.png)
