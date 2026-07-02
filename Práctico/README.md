@@ -1,19 +1,27 @@
 # El práctico
 
 
-Esta competencia ha sido creada a partir de un datasets sobre una recopilación de datos médicos y demográficos de los pacientes, junto con su estado de diabetes (positivo o negativo). Los datos incluyen características como la edad, el sexo, el índice de masa corporal (IMC), la hipertensión, las enfermedades cardíacas, el historial de tabaquismo, el nivel de HbA1c y el nivel de glucosa en sangre. Este conjunto de datos se puede usar para construir modelos de aprendizaje automático para predecir la diabetes en pacientes en función de su historial médico e información demográfica. Esto puede ser útil para los profesionales de la salud en la identificación de pacientes que pueden estar en riesgo de desarrollar diabetes y en el desarrollo de planes de tratamiento personalizados. Además, los investigadores pueden utilizar el conjunto de datos para explorar las relaciones entre varios factores médicos y demográficos y la probabilidad de desarrollar diabetes.
+Esta competencia ha sido creada a partir de un datasets sobre una recopilación de videos de personas utilizando protectores buconasales (barbijos). El objetivo es determinar si las personas tienen puesto los barbijos a partir de las imágenes.
+ 
+![Video11-frame-000209_single_box_0](../../../DiploDato2021/mentoria-deteccion-de-objetos-en-imagenes_repo/dataset/crop/dataSet_train_cropp/Video11-frame-000209_single_box_0.jpg)
 
+![video4-frame-000031_single_box_1](../../../DiploDato2021/mentoria-deteccion-de-objetos-en-imagenes_repo/dataset/crop/dataSet_train_cropp/video4-frame-000031_single_box_1.jpg)
+
+Este conjunto de datos fue elaborado utilizando 11 diferentes videos disponibles en la plataforma YouTube, en donde se muestran personas utilizando máscaras de protección en diversas situaciones y entornos: videos de trabajadores en las industrias, personas en la vı́a pública, entrevistas a personas y niños en las escuelas. Este conjunto está compuesto por imágenes con 1 261 caras con protectores buconasal y 993 caras sin ellos. 
+
+A cada imagen se la procesó mediante una red convolucional [ResNET101](https://arxiv.org/abs/1512.03385) para obtener la características sobresalientes adecuadas para realizar la tarea de clasificación de imágenes.
+![Texto alternativo](layer_resnet.png)
 
 ## Atributos del dataset:
- * **Gender**: Gender refers to the biological sex of the individual, which can have an impact on their susceptibility to diabetes. There are three categories in it male ,female and other.
- * **age**: Age is an important factor as diabetes is more commonly diagnosed in older adults.Age ranges from 0-80 in our dataset.
- * **hypertension**: Hypertension is a medical condition in which the blood pressure in the arteries is persistently elevated. It has values a 0 or 1 where 0 indicates they don’t have hypertension and for 1 it means they have hypertension.
- * **heart_disease**: Heart disease is another medical condition that is associated with an increased risk of developing diabetes. It has values a 0 or 1 where 0 indicates they don’t have heart disease and for 1 it means they have heart disease.
- * **smoking_history**: Smoking history is also considered a risk factor for diabetes and can exacerbate the complications associated with diabetes.In our dataset we have 5 categories i.e not current,former,No Info,current,never and ever.
- * **bmi**: BMI (Body Mass Index) is a measure of body fat based on weight and height. Higher BMI values are linked to a higher risk of diabetes. The range of BMI in the dataset is from 10.16 to 71.55. BMI less than 18.5 is underweight, 18.5-24.9 is normal, 25-29.9 is overweight, and 30 or more is obese.
- * **HbA1c_level**: HbA1c (Hemoglobin A1c) level is a measure of a person's average blood sugar level over the past 2-3 months. Higher levels indicate a greater risk of developing diabetes. Mostly more than 6.5% of HbA1c Level indicates diabetes.
- * **blood_glucose_level**: Blood glucose level refers to the amount of glucose in the bloodstream at a given time. High blood glucose levels are a key indicator of diabetes.
- * **diabetes**: Diabetes is the target variable being predicted, with values of 1 indicating the presence of diabetes and 0 indicating the absence of diabetes.
+El dataset solamente contiene los siguientes atributos:
+
+ * **Id***: Id de la imagen.
+ * **Clase**: si tiene o nó barbijo el rostro de la personsa: ccb=cara con barbijo, csb=cara sin barbijo.
+ * **bb_width**: ancho de la imagen.
+ * **bb_height**: largo de la imagen.
+ * **ch_RGB**: un promedio del histograma de los 3 canales RGB de la imagen.
+ * **1097, 595, etc**: vector de características a la salida de una red convolucional.
+
 
 
 ## Requerimientos del práctico
