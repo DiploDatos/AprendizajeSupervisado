@@ -13,15 +13,17 @@ A cada imagen se la procesó mediante una red convolucional [ResNET101](https://
 ![Texto alternativo](layer_resnet.png)
 
 ## Atributos del dataset:
-El dataset solamente contiene los siguientes atributos:
 
- * **Id***: Id de la imagen.
- * **Clase**: si tiene o nó barbijo el rostro de la personsa: ccb=cara con barbijo, csb=cara sin barbijo.
- * **bb_width**: ancho de la imagen.
- * **bb_height**: largo de la imagen.
- * **ch_RGB**: un promedio del histograma de los 3 canales RGB de la imagen.
- * **1097, 595, etc**: vector de características a la salida de una red convolucional.
+El conjunto de datos contiene exclusivamente los siguientes atributos:
 
+| Atributo     | Descripción |
+|--------------|-------------|
+| `Id`         | Identificador único de la imagen. |
+| `Clase`      | Etiqueta objetivo: `ccb` (cara con barbijo) o `csb` (cara sin barbijo). |
+| `bb_width`   | Ancho del recorte de la cara (bounding box). |
+| `bb_height`  | Alto del recorte de la cara. |
+| `ch_RGB`     | Promedio del histograma de los tres canales de color RGB. |
+| `1097, 595, ...` | Vector de características numéricas extraído por la red convolucional. |
 
 
 ## Requerimientos del práctico
