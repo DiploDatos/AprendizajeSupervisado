@@ -61,4 +61,4 @@ Ese archivo debe ser subido a kaggle como lo explicamos arriba: haciendo click e
 
 * En el baseline solo se utiliza cross-validation (mediante *GridSearchCV*) para evaluar el modelo, son libres de generar un subconjunto de validación aparte del conjunto de entrenamiento si así lo desean.
 * Los *features* escogidos no tienen ningún análisis y son casi por defecto. Parte del proceso de encontrar un buen modelo es ver como trabajar dichos features.
-* La métrica a optimizar será el recall score.
+* La métrica a optimizar será el balanced accuracy score.
